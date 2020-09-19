@@ -1,0 +1,19 @@
+main {
+    /* width: 80%; */
+    margin-top: 5rem
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    /* width: 500em; */
+}
+
+.linkName {
+    width: 40rem;
+}
+
+.urlLink {
+    width: 41.7rem;
+}
