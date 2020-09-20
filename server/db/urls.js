@@ -6,23 +6,18 @@ const urls = db.get('urls');
 
 const schema = Joi.object({
         name: Joi.string().token().min(1).max(100).required(),
-        nURL: Joi.string().uri({
+        url: Joi.string().uri({
             scheme: [/https?/]
         }),
     })
-    .with('name', 'nURL')
+    .with('name', 'url')
 
 schema.validate({
     name: '',
-    nURL: ''
+    url: ''
 });
 
-try {
-    const value = await schema.validateAsync({
-        name: 'abc',
-        nURL: 1994
-    });
-} catch (err) {}
+
 
 
 /* 
