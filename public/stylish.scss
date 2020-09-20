@@ -1,0 +1,19 @@
+$break-small: 500px;
+
+main {
+    /* width: 80%; */
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.linkName,
+urlLink {
+    width: 40rem;
+
+    @media screen and (min-width: $break-small) {
+        width: 40rem;
+    }
+
+}

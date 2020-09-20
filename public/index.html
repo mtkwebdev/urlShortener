@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <!-- navbar items, navbar burger... -->
+         //nav anchor tags go here!//
         </div>
-    </nav>
+    </nav> -->
 
     <section class="hero is-medium is-primary is-bold">
         <div class="hero-body">
@@ -29,55 +29,57 @@
         </div>
     </section>
 
-    <main>
-
-        <div class="is-centered columns">
-            <div class="is-two-thirds control is-flex-mobile">
-                <div class=" column field has-addons">
-                    <div class="control">
-                        <input class="input is-large linkName" type="text" placeholder="Add your custom URL here!">
-                    </div>
-                    <div class="control ">
+    <main id='app'>
+        <form>
+            <div class="is-centered columns">
+                <div class="is-two-thirds control ">
+                    <div class=" column field has-addons">
+                        <div class="control">
+                            <input class="input is-large linkName" type="text" placeholder="Add your custom URL here!">
+                        </div>
+                        <!-- <div class="control ">
                         <a class="button is-info is-medium">
                             Custom Link
                         </a>
+                    </div> -->
                     </div>
-                </div>
-                <div class=" column field has-addons">
-                    <div class="control">
-                        <input class="input is-large urlLink" type="text" placeholder="Paste URL Here!">
+                    <div class=" column field has-addons">
+                        <div class="control">
+                            <input class="input is-large urlLink" type="text" placeholder="Paste URL Here!">
+                        </div>
+
                     </div>
-                    <div class="control">
+                    <div class="control column">
                         <a class="button is-info is-medium">
                             Shorten!
                         </a>
                     </div>
-                </div>
+        </form>
 
 
-
-            </div>
-
-            <!-- 
+        </div>
+        </div>
+        <!-- 
         <div class="">
             <input class="input" type="text" placeholder="Normal input">
         </div>
 
-        <div class="control columns is-flex-mobile">
+        <div class="control columns ">
             <input class="input" type="text" placeholder="Normal input">
         </div> -->
 
 
-            <section class='columns is-multiline is-centered is-mobile'>
+        <section class='columns is-multiline is-centered is-mobile'>
 
-            </section>
+        </section>
 
-            <section class='columns is-multiline  is-centered is-mobile'>
+        <section class='columns is-multiline  is-centered is-mobile'>
 
-            </section>
+        </section>
     </main>
 
     <script src='https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js'></script>
+    <script src='main.js'></script>
 </body>
 
 </html>
