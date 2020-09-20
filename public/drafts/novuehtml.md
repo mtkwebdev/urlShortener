@@ -30,13 +30,13 @@
     </section>
 
     <main id='app'>
-        <form @submit.prevent='create_nURL'>
+        <form class='form'>
             <div class="is-centered columns">
                 <div class="is-two-thirds control ">
                     <div class=" column field has-addons">
                         <div class="control">
-                            <input v-model='url' class="input is-large linkName" type="text"
-                                placeholder="Add your custom URL here!" required>
+                            <input class="input url is-large linkName" type="text"
+                                placeholder="Add your custom URL here!">
                         </div>
                         <!-- <div class="control ">
                         <a class="button is-info is-medium">
@@ -46,8 +46,7 @@
                     </div>
                     <div class=" column field has-addons">
                         <div class="control">
-                            <input v-model='name' class="input is-large urlLink" type="text"
-                                placeholder="Paste URL Here!" required>
+                            <input class="input name is-large urlLink" type="text" placeholder="Paste URL Here!">
                         </div>
 
                     </div>
@@ -80,7 +79,7 @@
         </section>
     </main>
 
-    <script src='https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js'></script> -->
     <script src='main.js'></script>
     <!-- <script src="nonvue.js"></script> -->
 </body>
